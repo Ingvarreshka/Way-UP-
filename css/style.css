@@ -1,0 +1,72 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 1170px;
+  margin: 0 auto;
+  color: white;
+}
+
+.header {
+  background-color: #4ebefe;
+}
+
+img {
+  width: 30%;
+  outline: 3px solid tomato;
+}
+
+.main__logo {
+  width: 8%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__main {
+  width: 450px;
+  margin-top: 147px;
+}
+
+.hero__title span {
+  color: green;
+  font-size: 36px;
+}
+
+.button {
+  font-weight: 900;
+  padding: 15px 30px;
+  background-color: darkorange;
+  color: white;
+  border-radius: 34px;
+  border: none;
+}
+
+.about {
+  text-align: center;
+  font-size: 24px;
+}
+
+.subscription-form {
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: thistle;
+  margin: 0 auto;
+}
+
+.input {
+  display: block;
+}
+
+.footer {
+  background-color: teal;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
