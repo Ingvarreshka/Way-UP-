@@ -23,7 +23,7 @@ body {
   background-color: #4ebefe;
 }
 
-img {
+.hero__foto {
   width: 50%;
 }
 
@@ -81,6 +81,7 @@ img {
   list-style: none;
   display: flex;
 }
+
 img {
   width: 60px;
 }
