@@ -73,15 +73,36 @@ img {
   padding: 90px 0;
 }
 
-.subscription-form {
+.about__title {
+  padding-bottom: 20px;
+}
+
+.about__list {
+  list-style: none;
+  display: flex;
+}
+img {
+  width: 60px;
+}
+
+.sub-form {
   font-size: 24px;
   text-align: center;
   color: white;
   background-color: thistle;
   margin: 0 auto;
+  padding: 90px 0;
+}
+.sub-form__title {
+  margin-bottom: 20px;
 }
 
 .input {
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  width: 450px;
   display: block;
 }
 
